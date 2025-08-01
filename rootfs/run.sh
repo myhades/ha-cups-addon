@@ -1,7 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-# [Why?] This is stopping the add-on to load in 2025 versions of HA
-# ulimit -n 1048576
+ulimit -n 524288
 
 hostname=$(bashio::info.hostname)
 
