@@ -1,8 +1,11 @@
 # CUPS Home Assistant Addon (x86 Compatible)
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fniallr%2Fha-cups-addon)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2myhades%2Fha-cups-addon)
 
 # Description
+
+⚠ This fork updates the run.sh to remove the command to raise the number of open file descriptors.
+-----------------
 
 A CUPS (Common UNIX Printing System) server with a variety of included drivers, USB support, support for the Home Assistant installation's TLS certificate, and mDNS broadcasting enabled. This was created primarily to support Home Assistant installations on devices with x86 architecture, such as AMD/Intel-based thin clients. The installed driver packages focus on HP and Brother printer support. Avahi has been configured to support AirPrint via reflector mode.
 
